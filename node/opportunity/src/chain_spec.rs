@@ -16,8 +16,7 @@ use opportunity_runtime::{
 	SystemConfig, TechnicalCommitteeConfig, TechnicalMembershipConfig, TokensConfig,
 	TreasuryConfig
 };
-
-pub type AssetId = u32;
+use primitives::{AssetId};
 pub const CORE_ASSET_ID: AssetId = 1;
 
 // Node `ChainSpec` extensions.
